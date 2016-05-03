@@ -1,0 +1,234 @@
+*{
+	box-sizing: border-box;
+}
+
+/* @font-face {
+    font-family: 'theano_didotregular';
+    src: url('../theanodidot-regular-webfont.eot');
+    src: url('../theanodidot-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../theanodidot-regular-webfont.woff2') format('woff2'),
+         url('../theanodidot-regular-webfont.woff') format('woff'),
+         url('../theanodidot-regular-webfont.ttf') format('truetype'),
+         url('../theanodidot-regular-webfont.svg#theano_didotregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+} */
+
+
+@font-face {
+    font-family: 'henri_didotregular';
+    src: url('../fonts/henrididot-webfont.eot');
+    src: url('../fonts/henrididot-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/henrididot-webfont.woff2') format('woff2'),
+         url('../fonts/henrididot-webfont.woff') format('woff'),
+         url('../fonts/henrididot-webfont.ttf') format('truetype'),
+         url('../fonts/henrididot-webfont.svg#henri_didotregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'modern_sansregular';
+    src: url('../fonts/moderne_sans-webfont.eot');
+    src: url('../fonts/moderne_sans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/moderne_sans-webfont.woff2') format('woff2'),
+         url('../fonts/moderne_sans-webfont.woff') format('woff'),
+         url('../fonts/moderne_sans-webfont.ttf') format('truetype'),
+         url('../fonts/moderne_sans-webfont.svg#modern_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.clearfix:before, .clearfix:after{
+	display: table;
+	content: "";
+}
+
+.clearfix:after{
+	clear:both;
+}
+
+header{
+	width: 50%;
+    height: auto;
+    float: left;
+    padding: 110px 80px 11px 80px;
+    background-color: #f6f7f0;
+    margin-bottom: 75px;
+}
+
+nav{
+    margin-top: 60px;
+    margin-bottom: 160px;
+    height: auto;
+}
+
+.hero{
+    width: 50%;
+    float: right;
+}
+
+body{
+	font: 20px/40px 'henri_didotregular', serif;
+	color: #738786;
+
+}
+
+h1, h2{
+    font: 44px/54px 'modern_sansregular';
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 22px;
+    border-bottom: 1px solid #738786;
+}
+
+span{
+    display: block;
+    color: #d59d82;
+}
+
+.statement{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    max-width: 50%;
+    margin: auto;
+}
+
+.content{
+    margin: auto;
+    text-align: center;
+    height: auto;
+}
+
+ul{
+    max-width: 100%;
+    margin: auto;
+}
+
+.navigation li{
+    font: 18px 'modern_sansregular';
+    color: #f9c9a5;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: #738786;
+    padding: 15px 20px;
+    margin-right: 20px;
+}
+
+.navigation li:last-child{
+    margin-right: 0px;
+}
+
+h3{
+    font: 44px 'modern_sansregular';
+    color: #f9c9a5;
+    margin-left: 160px;
+    text-transform: uppercase;
+    display: block;
+    max-width: 20%;
+}
+
+.my_work{
+    background-color: #738786;
+    padding-top: 100px;
+}
+
+.case_studies ul{
+    max-width: 75%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.case_studies li{
+    font: 36px 'modern_sansregular';
+    background-color: #f6f7f0;
+    margin: 60px 160px;
+    padding: 60px 0 60px;
+}
+
+.case_studies li:first-child{
+    padding: 20px 0 20px;
+}
+
+.logos{
+    max-width: 15%;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.my_story{
+    background-color: #f6f7f0;
+}
+
+
+.timeline_head{
+    float: left;
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+.timeline_head h3, p{
+    color: #f9c9a5;
+    margin-left: 200px;
+    max-width: 60%;
+}
+
+.timeline_head h3{
+    margin-top: 160px;
+    margin-bottom: 50px;
+}
+
+.timeline_head p{
+    width: 40%;
+    font: 22px/40px 'henri_didotregular', serif;
+    color: #d59d82;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.headshot{
+    width: 25%;
+    float: right;
+    border-radius: 50%;
+    margin: 100px 180px 0 0;
+    -ms-transform: rotate(-15deg); /* IE 9 */
+    -webkit-transform: rotate(-15deg); /* Chrome, Safari, Opera */
+    transform: rotate(-15deg);
+}
+
+.timeline_list{
+    margin-top: 450px;
+    max-width: 70%;
+}
+
+.timeline_list li{
+    font: 24px/34px 'modern_sansregular';
+    color: #738786;
+    margin-top: 50px;
+}
+
+.timeline_list li span{
+    color: #738786;
+    font: 22px 'henri_didotregular';
+    line-height: 36px;
+    margin-left: 75px;
+}
+
+
+.timeline_list li::before{
+   content: '';
+   display: inline-block;
+   width: 25px;
+   height: 25px;
+   margin-right: 50px;
+   -moz-border-radius: 15px;
+   -webkit-border-radius: 15px;
+   border-radius: 15px;
+   background-color: #738786;
+}
+
