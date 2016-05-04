@@ -56,7 +56,7 @@ header{
     height: auto;
     float: left;
     padding: 110px 80px 11px 80px;
-    background-color: #f6f7f0;
+    background-color: #fcfcfc;
     margin-bottom: 75px;
 }
 
@@ -66,14 +66,21 @@ nav{
     height: auto;
 }
 
-.hero{
+.hero_img{
     width: 50%;
-    float: right;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.hero_img img{
+    width: 100%;
 }
 
 body{
 	font: 20px/40px 'henri_didotregular', serif;
-	color: #738786;
+	color: #5a5a5a;
 
 }
 
@@ -89,13 +96,14 @@ h2{
 
 span{
     display: block;
-    color: #d59d82;
+    color: #5a5a5a;
+    letter-spacing: 1px;
 }
 
 .statement{
     padding-top: 80px;
     padding-bottom: 50px;
-    max-width: 50%;
+    max-width: 60%;
     margin: auto;
 }
 
@@ -112,10 +120,10 @@ ul{
 
 .navigation li{
     font: 18px 'modern_sansregular';
-    color: #f9c9a5;
+    color: #fcfcfc;
     text-transform: uppercase;
     display: inline-block;
-    background-color: #738786;
+    background-color: #3b8485;
     padding: 15px 20px;
     margin-right: 20px;
 }
@@ -126,7 +134,7 @@ ul{
 
 h3{
     font: 44px 'modern_sansregular';
-    color: #f9c9a5;
+    color: #fcfcfc;
     margin-left: 160px;
     text-transform: uppercase;
     display: block;
@@ -146,7 +154,7 @@ h3{
 
 .case_studies li{
     font: 36px 'modern_sansregular';
-    background-color: #f6f7f0;
+    background-color: #fcfcfc;
     margin: 60px 160px;
     padding: 60px 0 60px;
 }
@@ -162,69 +170,71 @@ h3{
 }
 
 .my_story{
-    background-color: #f6f7f0;
+    background-color: #dadada;
+    width: 100%;
+    margin: auto;
 }
 
 
 .timeline_head{
-    float: left;
+    display: inline-block;
     width: 60%;
-    margin-bottom: 50px;
 }
 
 .timeline_head h3, p{
-    color: #f9c9a5;
+    color: #5a5a5a;
     margin-left: 200px;
     max-width: 60%;
 }
 
 .timeline_head h3{
-    margin-top: 160px;
-    margin-bottom: 50px;
+    width: 500px;
+    margin-left: 200px;
 }
 
 .timeline_head p{
-    width: 40%;
+    width: 100%;
     font: 22px/40px 'henri_didotregular', serif;
-    color: #d59d82;
+    color: #5a5a5a;
     margin-top: 30px;
+    margin-left: 200px;
     margin-bottom: 50px;
 }
 
 .headshot{
     width: 25%;
-    float: right;
+    display: inline-block;
     border-radius: 50%;
-    margin: 100px 180px 0 0;
+    margin-top: 100px;
     -ms-transform: rotate(-15deg); /* IE 9 */
     -webkit-transform: rotate(-15deg); /* Chrome, Safari, Opera */
     transform: rotate(-15deg);
 }
 
 .timeline_list{
-    margin-top: 450px;
+    margin-top: 100px;
     max-width: 70%;
 }
 
 .timeline_list li{
-    font: 24px/34px 'modern_sansregular';
+    font: 20px/28px 'modern_sansregular';
     color: #738786;
     margin-top: 50px;
 }
 
 .timeline_list li span{
     color: #738786;
-    font: 22px 'henri_didotregular';
+    font: 18px 'henri_didotregular';
     line-height: 36px;
-    margin-left: 75px;
+    margin-left: 70px;
 }
 
 
 .timeline_list li::before{
    content: '';
    display: inline-block;
-   width: 25px;
-   height: 25px;
+   width: 20px;
+   height: 20px;
    margin-right: 50px;
    -moz-border-radius: 15px;
    -webkit-border-radius: 15px;
